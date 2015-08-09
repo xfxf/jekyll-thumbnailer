@@ -60,7 +60,7 @@ class Jekyll::Thumbnail < Liquid::Tag
 
       end
 
-      """<img src='/#{dest}' width='#{w}' height='#{h}' style='min-width: #{w}''/>"""
+      """<img src='/#{dest}' width='#{w}' height='#{h}'/>"""
 
     else
       "Could not create thumbnail for #{source}. Usage: thumbnail /path/to/local/image.png 50x50<"
